@@ -17,7 +17,7 @@ on:
         description: "Dockerfile path relative to context"
         type: string
         required: false
-        default: "./tools/Dockerfile"
+        default: "./cicd/Dockerfile"
       CONTEXT:
         description: "Context for dockerfile"
         type: string
