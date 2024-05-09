@@ -16,7 +16,7 @@ on:
         description: "Docker registry for helm chart"
         type: string
         required: false
-        default: "docker-registry.kriuchkov.tech:5000"
+        default: "docker-registry.kriuchkov.tech"
     secrets:
       DOCKER_REGISTRY_USER:
         required: true
