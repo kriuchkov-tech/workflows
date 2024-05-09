@@ -27,7 +27,7 @@ on:
         description: "Docker registry to push image"
         type: string
         required: false
-        default: "docker-registry.kriuchkov.tech:5000"
+        default: "docker-registry.kriuchkov.tech"
     outputs:
       IMAGE:
         description: "Docker image name"
